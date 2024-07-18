@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../src/resources/images/bodyBackground.jpg");
+    background-color: #f0f0f0;
+    background-size: 99vw;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    height: 15vh;
+    align-items: center;
+    background-color: rgb(34, 34, 59);
+    padding: 0 20px;
+    border-bottom: 10px solid rgb(74, 78, 105);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.headerLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    height: 15vh;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+.headerLink > a {
+    font-style: none;
+    color: rgb(242, 233, 228);
+    text-decoration: none;
+    font-size: 20px;
+}
+.headerLink > a:hover {
+    color: rgba(181, 101, 40, 0.834);
+    text-decoration: underline;
+}
+.form {
+    margin-top: 20px;
+    height: 250px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    background-color: rgba(74, 78, 105, 0.472);
+    backdrop-filter: blur(12px);
+    color: rgb(242, 233, 228);
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formElement {
+    display: flex;
+    margin-left: 18px;
+    /* gap: 20px; */
+    width: 80%;
+}
+.form > button {
+    width: 200px;
+    height: 40px;
+    color: rgb(242, 233, 228);
+    background-color: black;
+    border: 1px;
+    border-radius: 10px;
+}
+.form > button:hover {
+    background-color: rgba(181, 101, 40, 0.834);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.formElement > label {
+    width: 90px;
+}
+.formElement > input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    padding-left: 5px;
+    background-color: rgb(242, 233, 228);
+    border: 1.6px solid;
+    border-radius: 8px;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #f0f0f0;
+    padding: 60px;
+    height: 85vh;
+    width: 100vw;
+}

@@ -1,0 +1,7 @@
+/node_module
+.parcel-cache
+node_modules/
+.cache/
+dist/
+.env
+.vercel
